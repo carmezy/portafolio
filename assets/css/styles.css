@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container {
+    width: 100vw;
+    min-height: 100vh;
+}
+.section {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh
+    
+}
+nav {
+    width: 100vw; 
+    height: 75PX;
+    left: 0%;
+    background-color: rgb(255, 255, 255);
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 2;
+}
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+video{
+    width: 100vw;
+    left: 0%;
+}
+
+.img-section { 
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#img{
+    position: absolute;
+width: 20vh;
+height: 20vh;
+background-repeat: no-repeat;
+background-size: cover;
+left: 0%;
+top: 75px;
+margin: auto;
+border:  50% ;
+border-radius: 0 0 50%;
+transition: all 2s;
+}
+#img:hover{
+    width: 40vh;
+    height: 40vh;
+}
+ 
+.texto-parte1{
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Permanent Marker", cursive;
+    z-index: 1;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    color: aliceblue;
+    text-shadow:
+     -5px -5px 0 black,
+     -5px 5px 0 black,
+     5px 5px 0 black,
+     5px -5px 0 black;
+}
+
+.texto-parte1-bajo{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+    z-index: 1;
+    left: 5%;
+    bottom: 40%;
+    text-shadow:
+     -1px -1px 0 white,
+     -1px 1px 0 white,
+     1px 1px 0 white,
+     1px -1px 0 white;
+}
+
+.texto-parte2{
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Anton SC", sans-serif;
+    z-index: 1;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    color: rgb(0, 0, 0);
+    text-shadow:
+    -1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white,
+    1px -1px 0 white;
+    
+}
+
+.texto-parte2-bajo{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Bona Nova SC", serif;
+    z-index: 1;
+    left: 5%;
+    bottom: 40%;
+    text-shadow:
+     -1px -1px 0 white,
+     -1px 1px 0 white,
+     1px 1px 0 white,
+     1px -1px 0 white;
+}
+
+.texto-parte3{
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Anton SC", sans-serif;
+    z-index: 1;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -2px -2px 0 black,
+     -2px 2px 0 black,
+     2px 2px 0 black,
+     2px -2px 0 black;
+}
+
+.texto-parte3-bajo{
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    font-family: "Bona Nova SC", serif;
+    z-index: 1;
+    left: 5%;
+    bottom: 40%;
+    text-shadow:
+     -1px -1px 0 white,
+     -1px 1px 0 white,
+     1px 1px 0 white,
+     1px -1px 0 white;
+}
+
+.texto-parte4{
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Anton SC", sans-serif;
+    z-index: 1;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    color: rgb(0, 0, 0);
+    text-shadow:
+    -1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white,
+    1px -1px 0 white;
+    
+}
+
+.texto-parte4-bajo{
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    font-family: "Bona Nova SC", serif;
+    z-index: 1;
+    left: 5%;
+    bottom: 40%;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -2px -2px 0 black,
+     -2px 2px 0 black,
+     2px 2px 0 black,
+     2px -2px 0 black;
+}
+
+.texto-parte5{
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Anton SC", sans-serif;
+    z-index: 1;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -2px -2px 0 black,
+     -2px 2px 0 black,
+     2px 2px 0 black,
+     2px -2px 0 black;
+}
+
+.texto-parte5-bajo{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Bona Nova SC", serif;
+    z-index: 1;
+    left: 5%;
+    bottom: 40%;
+    text-shadow:
+     -1px -1px 0 white,
+     -1px 1px 0 white,
+     1px 1px 0 white,
+     1px -1px 0 white;
+}
+
+.texto-parte6{
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Anton SC", sans-serif;
+    z-index: 1;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    color: rgb(0, 0, 0);
+    text-shadow:
+    -1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white,
+    1px -1px 0 white;
+    
+}
+
+.texto-parte6-bajo{
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    font-family: "Bona Nova SC", serif;
+    z-index: 1;
+    left: 5%;
+    bottom: 40%;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -2px -2px 0 black,
+     -2px 2px 0 black,
+     2px 2px 0 black,
+     2px -2px 0 black;
+}

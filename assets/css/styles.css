@@ -41,6 +41,9 @@ video{
 
 .img-section { 
     position: relative;
+    width: 100vw;
+    height: auto;
+    display: block;
     top: 0;
     left: 0;
 }

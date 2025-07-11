@@ -22,7 +22,9 @@ nav {
     width: 100vw; 
     height: 75PX;
     left: 0%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(15, 15, 15, 0.158);
+    backdrop-filter: blur(10px);
+    
     top: 0px;
     display: flex;
     align-items: center;
@@ -120,6 +122,8 @@ transition: all 2s;
     position: absolute;
     text-align: center;
     font-size: 50px;
+    background: rgba(61, 2, 155, 0.5);
+    border-radius: 30px;
     font-family: "Bona Nova SC", serif;
     z-index: 1;
     left: 5%;
@@ -152,6 +156,8 @@ transition: all 2s;
     position: absolute;
     text-align: left;
     font-size: 50px;
+    background: rgba(155, 127, 2, 0.479);
+    border-radius: 30px;
     font-family: "Bona Nova SC", serif;
     z-index: 1;
     left: 5%;
